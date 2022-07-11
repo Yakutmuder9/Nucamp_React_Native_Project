@@ -10,7 +10,7 @@ export default function App() {
         <Provider store={store}>
             <PersistGate loading={<Loading />} persistor={persistor}>
                 <NavigationContainer>
-                    <Main />
+                    <Main />s
                 </NavigationContainer>
             </PersistGate>
         </Provider>
